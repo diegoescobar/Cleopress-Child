@@ -90,6 +90,9 @@ $theme-colors: (
 ) !default;
 // scss-docs-end theme-colors-map
 
+$bg-dark: $light;
+$bg-light: $dark;
+
 // scss-docs-start theme-colors-rgb
 $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value") !default;
 // scss-docs-end theme-colors-rgb

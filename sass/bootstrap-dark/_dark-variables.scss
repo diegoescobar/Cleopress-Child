@@ -48,7 +48,7 @@ $colors: map-merge(
   )
 );
 
-$primary:       $blue;
+$primary:       $indigo;
 $secondary:     $gray-600;
 $success:       $green;
 $info:          $cyan;
@@ -156,25 +156,25 @@ $close-color:                   $white;
 $close-text-shadow:             0 1px 0 $black;
 
 // // Tables
-// $table-bg:                    transparent;
-// $table-accent-bg:             rgba($black, .05);
-// $table-hover-bg:              rgba($black, .075);
-// $table-active-bg:             $table-hover-bg;
+$table-bg:                    transparent;
+$table-accent-bg:             rgba($black, .05);
+$table-hover-bg:              rgba($black, .075);
+$table-active-bg:             $table-hover-bg;
 $table-color:                 $body-color;
 $table-border-color:          $border-color;
 $table-hover-color:           $table-color;
 
-// $table-head-bg:               $gray-200;
-// $table-head-color:            $gray-700;
+$table-head-bg:               $gray-200;
+$table-head-color:            $gray-700;
 
-// $table-dark-bg:                 $gray-900;
-// $table-dark-accent-bg:          rgba($white, .05);
-// $table-dark-hover-bg:           rgba($white, .075);
-// $table-dark-border-color:       lighten($gray-900, 7.5%);
-// $table-dark-color:              $body-bg;
+$table-dark-bg:                 $gray-900;
+$table-dark-accent-bg:          rgba($white, .05);
+$table-dark-hover-bg:           rgba($white, .075);
+$table-dark-border-color:       lighten($gray-900, 7.5%);
+$table-dark-color:              $body-bg;
 $table-dark-color:            $gray-300;
 
-// $table-caption-color:         $text-muted;
+$table-caption-color:         $text-muted;
 
 
 // Jumbotron
