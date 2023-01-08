@@ -23,7 +23,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-	outline-color: shift-color(#74D7EE, 20%);
+	outline-color: shift-color(#FFAFC8, 20%);
 }
 
 .social-icons .social-icon {
@@ -34,7 +34,7 @@ p.lead {
 }
 
 .social-icons .social-icon:hover {
-	background-color: #74D7EE;
+	background-color: #FFAFC8;
 }
 
 .dev-icons {
@@ -51,17 +51,17 @@ a.badge.bg-secondary.link-light:hover {
 
 .wp-pagenavi a, .wp-pagenavi span {
 	color: #fff;
-	background-color: shift-color(#74D7EE, 20%);
+	background-color: shift-color(#FFAFC8, 20%);
 	border: 1px solid #dee2e6;
 }
 
 .wp-pagenavi a:hover, .wp-pagenavi span.current {
 	border-color: #dee2e6;
-	background-color: shift-color(#74D7EE, 20%);
+	background-color: shift-color(#FFAFC8, 20%);
 }
 
 .wp-pagenavi span.current {
-	background-color: #74D7EE;
+	background-color: #FFAFC8;
 }
 
 .nav-links a,
@@ -82,7 +82,7 @@ a.badge.bg-secondary.link-light:hover {
 .navigation li.disabled {
 	color: #fff;
 	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-	background-color: #74D7EE;
+	background-color: #FFAFC8;
 }
 
 .nav-links li,
@@ -98,7 +98,7 @@ a.badge.bg-secondary.link-light:hover {
 .navigation a.active,
 .navigation li a:hover,
 .navigation li.active a {
-	background-color: shift-color(#74D7EE, 20%);
+	background-color: shift-color(#FFAFC8, 20%);
 }
 
 /*# sourceMappingURL=variables.css.map */

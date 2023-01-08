@@ -9,7 +9,7 @@
 
 $postClasses = (!is_single() ) ? 'col-6 col-lg-4' : '' ; 
 
-$postClasses = ( is_active_sidebar('sidebar-widgets') || is_active_sidebar('archive-widgets')) ? 'col-12 col-3' : $postClasses;
+$postClasses = ( is_active_sidebar('sidebar-widgets') || is_active_sidebar('archive-widgets')) ? 'col-sm-12 col-lg-6 col-xl-4' : $postClasses;
 
 ?>
     <!-- Page content-->
@@ -21,7 +21,7 @@ $postClasses = ( is_active_sidebar('sidebar-widgets') || is_active_sidebar('arch
 				if ( is_singular() ) :
 					the_title( '<h1 class="entry-title fw-bolder mb-0">', '</h1>' );
 				elseif ( is_home() || is_front_page()):
-					// the_title( '<p class="entry-title fw-bolder mb-0">', '</p>' );
+					the_title( '<p class="entry-title fw-bolder mb-0">', '</p>' );
 				else :
 					the_title( '<h2 class="entry-title text-primary fw-bolder mb-1"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 				endif;

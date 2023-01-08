@@ -4,7 +4,7 @@
 	"sources": [
 		"../../sass/bootstrap/bootstrap.scss",
 		"../../sass/bootstrap/_functions.scss",
-		"../../sass/bootstrap/_variables.scss",
+		"../../sass/variables.scss",
 		"../../sass/bootstrap/_mixins.scss",
 		"../../sass/bootstrap/vendor/_rfs.scss",
 		"../../sass/bootstrap/mixins/_deprecate.scss",

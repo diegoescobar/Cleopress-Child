@@ -8,8 +8,9 @@
 // scss-docs-start import-stack
 // Configuration
 @import "functions";
-$sizes: (); // <-- Fix here
-@import "variables";
+// @import "variables";
+
+@import "../variables";//"variables";
 @import "mixins";
 @import "utilities";
 
