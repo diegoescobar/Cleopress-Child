@@ -8,9 +8,11 @@
  */
 
 
- $postClasses = (!is_single() ) ? 'col-6 col-lg-4' : '' ; 
+ $postClasses = (!is_single() ) ? 'col-12 col-lg-4' : 'col-sm-12 col-lg-6 col-xl-4' ; 
 
- $postClasses = ( is_active_sidebar('sidebar-widgets') || is_active_sidebar('archive-widgets')) ? 'col-12 col-3' : $postClasses;
+ $postClasses = ( is_active_sidebar('sidebar-widgets') || is_active_sidebar('archive-widgets')) ? 'col-sm-6 col-lg-6 col-xl-4' : $postClasses;
+
+ $postClasses = ( is_active_sidebar('single-widgets') ) ? $postClasses : 'col-12 col-lg-8';
  
  ?>
 	 <!-- Page content-->
